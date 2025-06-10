@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Login</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="/css/Styles.css">
+    </head>
+        <body class="bg-blue-950 min-h-screen">
+            <!--barra superior-->
+            <nav class="bg-violet-800 p-5 shadow-lg">
+                <div class="container mx-auto flex justify-between items-center">
+                    <label class="text-white font-bold text-xl">Login</a>
+                </div>
+            </nav>
+
+            <!--Formulário de login-->
+            <div class="max-w-2xl mx-auto mt-8 mb-4 p-4 bg-violet-950 px-3 shadow-lg text-white rounded-lg">
+                <h2 class="text-2xl font-bold mb-4">Formulário de Login</h2>
+                <form >
+                        <!--input de email-->
+                        <div class="form__group field mb-5">
+                        <input type="input" class="form__field" placeholder="Email" required="">
+                            <label for="email" class="form__label">E-mail</label>
+                        </div>
+
+                        <!--input de senha-->
+                        <div class="form__group field mb-5">
+                        <input type="password" class="form__field" placeholder="senha" required="">
+                            <label for="senha" class="form__label">🔒Senha</label>
+                        </div>
+
+                </form>
+                <div class="flex justify-end">
+                <button>Entrar</button>
+                </div>
+            </div>
+
+        </body>
+    
+</html>
